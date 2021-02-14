@@ -1,41 +1,47 @@
+<!--An improvement on my 404 page, using CSS Grid for responsive layout.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="./style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-  <title>404 - Page Not Found</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Grid Practice</title>
 </head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>404 NOT FOUND</h1>
+        </div>
 
-<script type="text/javascript">
-	function redirect() {
-		window.location.href="https://devchallenges.io/"; 
-	}
-</script>
+        <div class="content-main">
+            <div class="main-left">
+                <img src="./Scarecrow.png" alt="a scarecrow"/>
+            </div>
+            
+            <div id="main-right">
+               <p id="larger-text">I have bad news <br />for you</p>
+               <div id="text-small-cont">
+                   <p id="smaller-text">The page you are looking for might be removed or is temporarily unavailable. </p>
 
-<body>  
-    <div class="header">
-		<p>404 Not Found</p>
+               </div>
+               <div id="btn-cont">
+                   <input type="button" id="btnHome" value="Go back To DevChallenges.io" href="javascript:void(0)" onclick="redirect()"/>
+               </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Alan Callaghan/RecodeExistence @ DevChallenges.io</p>
+        </div>
     </div>
-
-    <div id="main">
-		<div class="center-content-container imgCont">
-			<img src="./Scarecrow.png" alt="A scarecrow."/>
-		</div>
-		
-		<div class="center-content-container content-text">
-			<p id="text-warning">I Have Bad News For You</p>
-			<p>The page you are looking for might be removed or temporarily unavailable</p>
-			<input type="button" id="btnHome" href="javascript:void(0)" onclick="redirect()" value="Back to DevChallenges">
-		</div>
-	</div>
-
-    </div>
-
-    <div class="footer">
-      <p>RecodeExistence @ devchallenges.io - 2021</p>
-    </div>
+    
+    <script type="text/javascript">
+        function redirect() {
+            if(confirm("Are you sure you want to go back to DevChallenges?")) {
+                window.location.href="https://devchallenges.io"; 
+            }
+        }
+    </script>
 </body>
 </html>
