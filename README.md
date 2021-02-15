@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://beardo404.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/I7mY8BFjIu5TJHrIVIcy">
       Solution
     </a>
     <span> | </span>
@@ -27,7 +27,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -36,9 +36,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+![screenshot](https://i.imgur.com/6Nv5MPC.png)
 
 - I'm creating this page as part of the devchallenges.io curriculum, and am going to do this one in basic html and css to practice layout and responsive design.
 
@@ -48,6 +46,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - HTML
 - CSS
+- CSS Grid
 
 ## Features
 
@@ -65,4 +64,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@RecodeExistance](https://{github.com/RecodeExistence})
+- GitHub [@RecodeExistance](https://github.com/RecodeExistence)
